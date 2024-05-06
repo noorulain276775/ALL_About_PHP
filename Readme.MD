@@ -39,4 +39,4 @@ A variable declared within a function has a local scope and can only be accessed
 </p>
 
 <p><b>Global: </b>"Global" keyword, is used to access a global variable from within a function.</p>
-<p><b>Static: </b>Normally, when a function is executed all of its variables are deleted. Howere sometimes, we want to keep a local variable NOT to be deleted. To do this, we use "Static" keyword</p>
+<p><b>Static: </b>Normally, when a function is executed all of its variables are deleted. Howere sometimes, we want to keep a local variable NOT to be deleted. To do this, we use "Static" keyword.</p>
