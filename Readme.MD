@@ -21,3 +21,22 @@
 <p><b>Array: </b>An Array is a data structure that store one or more similar type of values.</p>
 <p><b>Null: </b>is a special type that has only one value, NULL.</p>
 <p><b>Resources: </b>are special varaibles that hold references to resources external to PHP.</p>
+
+<h3>Describe the kind of Array</h3>
+<p><b>Indexed Array: </b> An array with numeric index values</p>
+<p><b>Associative Array: </b> An array with string as index. This stores element values in association with key values rather than in a strict linear index order</p>
+<p><b>Multidimensional Array: </b> It is called array of arrays. It allows you to have tabular data in an array. A multidimensional array each element in the main array can also be an array.</p>
+
+<h3>Describe variable scope in PHP</h3>
+<p>In PHP, Variables can be declared anywhere in the script. PHP has three different variable scope
+<ul>
+<li>Local</li>
+<li>Global</li>
+<li>Static</li>
+</ul>
+Variable declared outside a function has a global scope and can only be accessed outside a function.<br>
+A variable declared within a function has a local scope and can only be accessed within a function.
+</p>
+
+<p><b>Global: </b>"Global" keyword, is used to access a global variable from within a function.</p>
+<p><b>Static: </b>Normally, when a function is executed all of its variables are deleted. Howere sometimes, we want to keep a local variable NOT to be deleted. To do this, we use "Static" keyword</p>
